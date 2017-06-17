@@ -7,6 +7,5 @@ ENTRYPOINT []
 ARG VERSION
 ARG RELEASE_DATE
 
-LABEL vendor="ShoreTel" \
-version="${VERSION}" \
+LABEL version="${VERSION}" \
 release_date="${RELEASE_DATE}"
